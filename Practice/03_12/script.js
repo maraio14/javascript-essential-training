@@ -6,3 +6,15 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+import Refrigerator from "./Refrigerator.js";
+
+const refrigerator = new Refrigerator(
+    "Samsung",
+    "beige",
+    2,
+    170,
+    251,
+    true
+);
+console.log("The refrigerator: ", refrigerator);
